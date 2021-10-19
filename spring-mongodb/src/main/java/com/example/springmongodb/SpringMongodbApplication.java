@@ -1,22 +1,14 @@
 package com.example.springmongodb;
 
-import com.example.springmongodb.common.Gender;
-import com.example.springmongodb.entity.Address.Address;
 import com.example.springmongodb.entity.Student.Student;
-import com.example.springmongodb.repository.address.AddressRepository;
 import com.example.springmongodb.repository.student.StudentRepository;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 
-import java.math.BigDecimal;
-import java.time.LocalDateTime;
 import java.util.List;
-import java.util.Optional;
 
 @SpringBootApplication
 public class SpringMongodbApplication {
